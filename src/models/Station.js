@@ -11,6 +11,10 @@ class Station extends Model {
       token: DataTypes.STRING,
     }, {sequelize});
   }
+
+  static associate(models) {
+    this.hasMany(models.Log, { foreignKey: 'station_id', as: 'log' });
+  }
 }
 
 module.exports = Station;
