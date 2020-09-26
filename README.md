@@ -1,4 +1,5 @@
 # estacao-meteorologica-backend
+Este é o back-end do projeto Rede de estações meteorologicas de baixo custo, Realizado no IFSULDEMINAS - Campus Poços de Caldas, o qual funciona como uma API para armazenar os registros das estações em um banco de dados assim como fornecer os dados para exibição em uma aplicação web.
 
 ## Instalação
 Para executar o back-end é necessário ter instalado:
